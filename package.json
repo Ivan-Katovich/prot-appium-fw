@@ -1,0 +1,17 @@
+{
+  "name": "prot-appium-test-fw",
+  "version": "0.0.1",
+  "description": "Framework based on protractor and appium for mobile testing",
+  "main": "index.js",
+  "scripts": {
+    "go": "node node_modules/protractor/bin/protractor test/configuration/protractor-conf.js"
+  },
+  "author": "Ivan Kotovich",
+  "license": "ISC",
+  "devDependencies": {
+    "appium": "^1.7.1",
+    "jasmine": "^2.8.0",
+    "jasmine-reporters": "^2.2.1",
+    "protractor": "^5.1.2"
+  }
+}
